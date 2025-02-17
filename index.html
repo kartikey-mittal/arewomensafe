@@ -86,6 +86,24 @@
 		var appData = {};
 		appData.baseUrl = "https://github.com/kartikey-mittal";
 	</script>
+	
+	<audio id="myAudio">
+		<source src="/songs/song2.mp3" type="audio/mpeg">
+	  </audio>
+	  
+	  <script>
+		var audio = document.getElementById("myAudio");
+console.log(audio.src); // Check file path
+console.log(audio.readyState); // Check ready state
+console.log(audio.networkState); // Check network state
+
+		document.addEventListener("click", function () {
+		  var audio = document.getElementById("myAudio");
+		  audio.play();
+		}, { once: true }); // Ek hi baar trigger hoga
+	  </script>
+	  
+	  
 	<div class="page-content bg-theme-2" id="page-content">
 		<div class="intro">
 	<section class="section-zero">
