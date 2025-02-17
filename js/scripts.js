@@ -32942,7 +32942,7 @@
         Et = "c0b8d8a2-05d3-43f1-bf05-1f72b4f023d8",
         xt = "4531074a-bada-4c90-ab54-66414dd50a4c",
         St = "fa0bacc5-5d7b-48c4-a0b0-f24b335b2e62",
-        Ct = window.appData || { baseUrl: "https://200.allens.com.au" },
+        Ct = window.appData || { baseUrl: "https://github.com/kartikey-mittal" },
         Ot =
           "name,bubbleImage,mainImage,bubbleSize,bubbleTitle,bubbleSubHeader,url,routeSegment,title,contentType,contentLink";
       const kt = {
@@ -33063,7 +33063,7 @@
           {
             themeId: "reflections",
             displayName: "Reflections",
-            link: "https://200.allens.com.au/reflections/",
+            link: "https://github.com/kartikey-mittalreflections/",
           },
           {
             themeId: "Allens",
@@ -33079,7 +33079,7 @@
         META_DESC: "Allens 200 description",
         SHARE_IMG:
           "Static/twoHundredYears/assets/images/allens-200-share-card.jpg",
-        WEBSITE_URL: "https://200.allens.com.au",
+        WEBSITE_URL: "https://github.com/kartikey-mittal",
       };
       function Tt(e, t) {
         (null == t || t > e.length) && (t = e.length);

@@ -201,7 +201,7 @@ select {
   --icon-box-width: 80px;
   --icon-box-icon-width: 48px;
 }
-@font-face {
+/* @font-face {
   font-display: swap;
   font-family: "BodoniBook";
   src: url("../fonts/bodoni_book_72.woff") format("opentype");
@@ -417,7 +417,7 @@ select {
   src: url("../fonts/TheSansB-W9BlackItalic.woff") format("opentype");
   font-weight: 900;
   font-style: italic;
-}
+} */
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -6564,7 +6564,7 @@ button.swiper-pagination-bullet {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url("../images/noise-white.png");
+  background: url("../images/herow.jpg");
   opacity: 0.15;
   bottom: 100vh;
   top: -300vh;
@@ -6595,6 +6595,7 @@ button.swiper-pagination-bullet {
 }
 .section-one h1.title-one {
   transform: translateY(-100%);
+  font-family: "Bodoni"
 }
 .section-one h1.title-two {
   transition-delay: 0.5s;
@@ -6908,15 +6909,19 @@ button.swiper-pagination-bullet {
   }
 }
 .section-two {
-  height: 100vh;
+  height: 130vh; /* Ensure that this is the height you want */
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 130vh;
   flex-direction: column;
   max-width: 110vw;
   padding: 0 32px;
-  background: #6b2025;
+  background: rgba(107, 32, 37, 0.9); /* Adjust the alpha value for opacity */
+  background-image: url("../images/shock.png");
+  background-size: cover; /* This makes the background image cover the entire section */
+  background-repeat: no-repeat; /* This prevents the background image from repeating */
+  background-blend-mode: darken; /* Blend mode to achieve the effect */
+  background-position: center; /* This centers the background image */
 }
 .section-two .section-two-content {
   position: -webkit-sticky;
@@ -7339,7 +7344,7 @@ button.swiper-pagination-bullet {
 }
 .intro {
   color: #fff;
-  background-image: url("../images/pattern-background.jpg");
+  background-image: url("../images/het.jpg");
   background-size: auto calc(100% + 2000px);
 }
 @supports not (-webkit-touch-callout: none) {
